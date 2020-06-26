@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-<body>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="./index.html">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Website Links
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">GitHub</a>
+            <a class="dropdown-item" href="#">Resume</a>
+            <a class="dropdown-item" href="#">Linked</a>
+        </div>
+    </li>
+
+</ul>
+
+
+
+
 <span class="border border-success"></span>
-
 <div class="container">
     <div class="row">
-    <div class="col-sm bg-dark text-white">
-        <h1><span>Kenyatta Hill</span></h1>
-    </div>
-        <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" href="./index.html">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-        </li>
-        </ul>
-    </div>
-</div class="container">
+        <div class="col-sm-12 col-md-8 col-lg-4 bg-dark text-white">
+            <h1><span>Kenyatta Hill</span></h1>
+        </div class="container">
     </div class="row">
-    </div class="col-sm center">
-    <h1>Portfolio</h1>
+</div class="col-sm center">
+<h1>Portfolio</h1>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
 
-<div class="container">
-    <div class="row">
-        <!-- <div class="col-sm"> -->
-            <img src="./Assets/Images/02-CSS-Bootstrap_02-Homework_Assets_Images_640-contact.jpg" width="300" height="400">
-<div class="container">
-    <!-- <div class="row"> -->
-        <div class="col-sm">
-            <img src="./Assets/Images/02-CSS-Bootstrap_02-Homework_Assets_Images_640-index.jpg" width="300" height="400">
-<div class="container">
-    <!-- <div class="row"> -->
-        <div class="col-sm">
-            <img src="Assets/Images/02-CSS-Bootstrap_02-Homework_Assets_Images_640-portfolio.jpg" width="300" height="400">
-    </div>
+            <footer class="fixed-bottom bg-dark p-2">
+                <p class="text-white text-center">Copy Right</p>
+            </footer>
+            </body>
 
-</div>
-
-
-</div>
-
-</body>
+</html>
