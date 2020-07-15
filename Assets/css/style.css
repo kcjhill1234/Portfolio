@@ -5,9 +5,14 @@ color: aqua;
 #firstName {
     font-size: xx-large;
 }
-/* .card {
-width: 400;
-height: 500;
 
+article {
+    background-color: rgb(145, 157, 172);
+    padding: 30px;
+    margin-bottom: 30px;
+}
 
-} */
+p {
+    font-size: x-large;
+}
+
